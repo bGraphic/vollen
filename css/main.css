@@ -108,7 +108,7 @@ html {
 
 body {
   height: 100%;
-  padding: 2em;
+  padding: 4em;
 }
 
 .wrap {
@@ -117,14 +117,17 @@ body {
   height: 100%;
 }
 
-
-
 section {
   position: relative;
   top: 50%;
-  -webkit-transform: translateY(-70%);
-  -ms-transform: translateY(-70%);
-  transform: translateY(-70%);
+  -webkit-transform: translateY(-60%);
+  -ms-transform: translateY(-60%);
+  transform: translateY(-60%);
+}
+
+img {
+  margin-left: -10%;
+  margin-bottom: 2em;
 }
 
 
