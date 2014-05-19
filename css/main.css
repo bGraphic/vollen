@@ -116,6 +116,12 @@ img {
   margin-bottom: 2em;
 }
 
+@media all and (max-width: 768px) {
+  body {
+    padding: 4em 3em;
+  }
+}
+
 @media all and (min-width: 769px) {
 
   html {
@@ -138,7 +144,7 @@ img {
     -ms-transform: translateY(-60%);
     transform: translateY(-60%);
   }
-  
+
 }
 
 
