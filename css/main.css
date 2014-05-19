@@ -120,6 +120,10 @@ img {
   body {
     padding: 4em 3em;
   }
+
+  strong {
+    display: block;
+  }
 }
 
 @media all and (min-width: 769px) {
