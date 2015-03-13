@@ -102,8 +102,20 @@ textarea {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
  }
 
+.small {
+  font-size: 80%;
+}
+
 body {
   padding: 4em;
+}
+
+article {
+  border-bottom: 1px solid #eeeeee;
+}
+
+article:last-child {
+  border-bottom: none;
 }
 
 dt {
